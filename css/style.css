@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+.content{
+    background-color: rgb(80, 184, 146);
+    margin-left: 310px;
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(228, 255, 245);
+}
+
+.name_input {
+    margin-bottom: 5px;
+}
+
+#myButton {
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(177, 220, 203);
+}
+
+.item button {
+    border: none;
+    background:none;
+}
+
+.text {
+    color: rgb(57, 74, 67);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item {
+    background-color: rgb(205, 255, 237);
+}
+
+.item:nth-child(odd) {
+background-color: rgb(181, 232, 214);
+}
+
+.list {
+    width: 1000px;
+    margin-top: 0;
+}
